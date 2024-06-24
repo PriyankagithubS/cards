@@ -1,0 +1,52 @@
+
+.price-card {
+  border: 3px solid #c2bdbd;
+  border-radius: 5px;
+  padding: 16px;
+  text-align:center;
+  max-width: 300px;
+  margin: 0 auto;
+  box-shadow: 0 4px 6px rgba(253, 249, 249, 0.968);
+}
+
+.price-card__plan {
+  font-size: 2em;
+  margin-bottom: 8px;
+  color:whitesmoke;
+}
+
+.price-card__price {
+  font-size: 2.5em;
+  margin: 16px 0;
+  color: #27ae60;
+}
+
+.price-card__features {
+  padding: 0;
+  margin: 16px 0;
+}
+
+.price-card__feature {
+  margin: 8px 0;
+  color:white;
+  display: flex;
+  align-items: center;
+}
+
+.tick-mark {
+  color: #27ae60;
+  margin-right: 8px;
+}
+
+.cross-mark {
+  color: #e74c3c;
+  margin-right: 8px;
+}
+
+.price-card__button {
+  background-color: #27ae60;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+ 
+}
