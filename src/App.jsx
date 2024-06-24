@@ -30,8 +30,8 @@ function App() {
       <h1>Our Pricing Plans</h1>
       <div className="price-cards">
         <PriceCard plan="Basic" price="10" features={features} />
-        <PriceCard plan="Pro" price="20" features={features2} />
-        <PriceCard plan="Enterprise" price="30" features={features3} />
+        <PriceCard plan="Plus" price="20" features={features2} />
+        <PriceCard plan="Pro" price="30" features={features3} />
       </div>
     </div>
   );
